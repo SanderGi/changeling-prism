@@ -4,18 +4,17 @@ ______________________________________________________________________
 
 # PRiSM
 
+[![Paper](https://img.shields.io/badge/arXiv-2601.14046-b31b1b.svg)](https://arxiv.org/abs/2601.14046)
+<a href="https://huggingface.co/collections/changelinglab/prism"><img alt="Dataset" src="https://img.shields.io/badge/Dataset-PRiSM-FFD21E?logo=huggingface&logoColor=gold&logoPosition=right"></a>
 <a href="https://pytorch.org/get-started/locally/"><img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-ee4c2c?logo=pytorch&logoColor=white"></a>
-<a href="https://pytorchlightning.ai/"><img alt="Lightning" src="https://img.shields.io/badge/-Lightning-792ee5?logo=pytorchlightning&logoColor=white"></a>
-<a href="https://hydra.cc/"><img alt="Config: Hydra" src="https://img.shields.io/badge/Config-Hydra-89b8cd"></a>
-<a href="https://github.com/ashleve/lightning-hydra-template"><img alt="Template" src="https://img.shields.io/badge/-Lightning--Hydra--Template-017F2F?style=flat&logo=github&labelColor=gray"></a><br>
-<!-- [![Paper](http://img.shields.io/badge/paper-arxiv.1001.2234-B31B1B.svg)](https://www.nature.com/articles/nature14539)
-[![Conference](http://img.shields.io/badge/AnyConference-year-4b44ce.svg)](https://papers.nips.cc/paper/2020) -->
+<br>
+<!-- [![Conference](http://img.shields.io/badge/AnyConference-year-4b44ce.svg)](https://papers.nips.cc/paper/2020) -->
 
 </div>
 
 ## Description
 
-A benchmark for evaluating phonetic models.
+A benchmark for evaluating phonetic capabilities of speech models.
 
 ## 🚀 Quickstart
 
@@ -30,6 +29,9 @@ cd prism
 . ./setup_uv.sh
 
 ```
+
+This codebase pulls datasets from the huggingface collection [https://huggingface.co/collections/changelinglab/prism](https://huggingface.co/collections/changelinglab/prism).
+
 
 ## How to run
 
@@ -67,6 +69,7 @@ python src/main.py trainer.max_epochs=20 data.batch_size=64
 - **[Contributing Guide](CONTRIBUTING.md)** - Project structure, workflow, and best practices for contributors
 
 ## Citation
+
 If you use this code in your research, please cite our paper:
 
 ```bibtex
